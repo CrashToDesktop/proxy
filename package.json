@@ -1,0 +1,19 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "A simple proxy api",
+  "main": "index.js",
+  "author": "Marx Guimaraes",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "platform-sdk-node": "git+ssh://git@github.com:chaordic/platform-sdk-node.git#v0.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
